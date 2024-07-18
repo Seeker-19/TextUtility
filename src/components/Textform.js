@@ -112,12 +112,6 @@ export default function Textform(props) {
           Copy Text
         </button>
         {/*<button className="btn btn-primary mx-2 my-1" onClick={toggleStyle}>{btnText}</button>*/}
-        <button
-          disabled={Text.length === 0}
-          className="btn btn-primary mx-2 my-1"
-        >
-          Remove Extra Spaces
-        </button>
       </div>
       <div
         className="container my-4"
